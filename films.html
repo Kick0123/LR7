@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильмы</title>
+    <!-- Подключение Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Навбар -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Бенедикт Камбербэтч</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Основная информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Список фильмов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Информация об актёре -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Бенедикт Камбербэтч</h2>
+                <p><strong>Дата рождения:</strong> 19 июля 1976</p>
+                <p><strong>Возраст:</strong> 48 лет</p>
+                <p><strong>Количество фильмов:</strong> 50+</p>
+                <p><strong>Жанры:</strong> Драма, Триллер, Научная фантастика, Фэнтези</p>
+            </div>
+            <div class="col-md-6 d-none d-sm-block d-md-none d-lg-block">
+                <img src="Актёр.jpg" class="img-fluid rounded" alt="Фото актёра">
+            </div>
+        </div>
+    </div>
+
+    <!-- фильмы -->
+    <div class="container my-5">
+        <h2 class="text-center">Лучшие фильмы</h2>
+        <div class="row">
+            <!-- Карточки фильмов -->
+            <div class="col-md-3 mb-4" style="display: flex; justify-content: center;">
+                <div class="card" style="width: 100%;">
+                    <img src="film1.webp" class="card-img-top" alt="Шерлок">
+                    <div class="card-body">
+                        <h5 class="card-title">Шерлок</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" style="display: flex; justify-content: center;">
+                <div class="card" style="width: 100%;">
+                    <img src="film2.webp" class="card-img-top" alt="Discovery: Во Вселенную со Стивеном Хокингом">
+                    <div class="card-body">
+                        <h5 class="card-title">Discovery: Во Вселенную со Стивеном Хокингом</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" style="display: flex; justify-content: center;">
+                <div class="card" style="width: 100%;">
+                    <img src="film3.webp" class="card-img-top" alt="Человек-паук: Нет пути домой">
+                    <div class="card-body">
+                        <h5 class="card-title">Человек-паук: Нет пути домой</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" style="display: flex; justify-content: center;">
+                <div class="card" style="width: 100%;">
+                    <img src="Фильм игра в имитацию.webp" class="card-img-top" alt="Игра в имитацию">
+                    <div class="card-body">
+                        <h5 class="card-title">Игра в имитацию</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" style="display: flex; justify-content: center;">
+                <div class="card" style="width: 100%;">
+                    <img src="film5.webp" class="card-img-top" alt="Мстители: Война бесконечности">
+                    <div class="card-body">
+                        <h5 class="card-title">Мстители: Война бесконечности</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" style="display: flex; justify-content: center;">
+                <div class="card" style="width: 100%;">
+                    <img src="film6.webp" class="card-img-top" alt="Чудесная история Генри Шугара">
+                    <div class="card-body">
+                        <h5 class="card-title">Чудесная история Генри Шугара</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" style="display: flex; justify-content: center;">
+                <div class="card" style="width: 100%;">
+                    <img src="film7.webp" class="card-img-top" alt="1917">
+                    <div class="card-body">
+                        <h5 class="card-title">1917</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" style="display: flex; justify-content: center;">
+                <div class="card" style="width: 100%;">
+                    <img src="film8.webp" class="card-img-top" alt="Доктор Стрэндж">
+                    <div class="card-body">
+                        <h5 class="card-title">Доктор Стрэндж</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Доп инфо об актёре -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Интересный факт</h4>
+                <p>Актёр получил премию «Оскар» за фильм <b>«Игра в имитацию».</b></p>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+                <h4>Любимое блюдо</h4>
+                <p><b>Паста карбонара</b> — одно из его любимых блюд.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Фильмография -->
+    <div class="container my-5">
+        <h2 class="text-center">Фильмография</h2>
+        <table class="table table-striped table-bordered text-center">
+            <thead>
+                <tr>
+                    <th>Год</th>
+                    <th>Русское название</th>
+                    <th>Оригинальное название</th>
+                    <th>Роль</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2010</td>
+                    <td>Шерлок</td>
+                    <td>Sherlock</td>
+                    <td>Шерлок Холмс</td>
+                </tr>
+                <tr>
+                    <td>2010</td>
+                    <td>Discovery: Во Вселенную со Стивеном Хокингом</td>
+                    <td>Into the Universe with Stephen Hawking</td>
+                    <td>Стивен Хокинг</td>
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td>Игра в имитацию</td>
+                    <td>The Imitation Game</td>
+                    <td>Алан Тьюринг</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>Доктор Стрэндж</td>
+                    <td>Doctor Strange</td>
+                    <td>Доктор Стрэндж</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Мстители: Война бесконечности</td>
+                    <td>Avengers: Infinity War</td>
+                    <td>Доктор Стрэндж</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>1917</td>
+                    <td>1917</td>
+                    <td>Полковник Маккензи</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Человек-паук: Нет пути домой</td>
+                    <td>Spider-Man: No Way Home</td>
+                    <td>Доктор Стрэндж</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Чудесная история Генри Шугара</td>
+                    <td>The Wonderful Story of Henry Sugar</td>
+                    <td>Генри Шугар / визажист</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Подключение Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* Общие стили */
+body {
+    padding-top: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.carousel {
+    margin-bottom: 40px;
+}
+
+/* Ограничение высоты изображений в карусели */
+.carousel img {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Стили для карточек фильмов */
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Стили для бокового меню с ScrollSpy */
+#sidebarMenu {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 200px;
+    z-index: 1000;
+    background-color: #f8f9fa;
+    border-left: 1px solid #ddd;
+    padding: 10px;
+}
+
+#sidebarMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebarMenu ul li {
+    margin-bottom: 10px;
+}
+
+#sidebarMenu ul li a {
+    text-decoration: none;
+    color: #69e065;
+    font-weight: bold;
+}
+
+#sidebarMenu ul li a.active {
+    color: #0056b3;
+}
+
+/* Стили для секции с краткой информацией */
+#bio .card {
+    margin-top: 20px;
+}
+
+.collapse {
+    margin-bottom: 40px;
+}
+
+/* Сообщение об ошибке на странице films.html */
+.alert {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
